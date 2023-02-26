@@ -32,21 +32,7 @@ namespace light_sensor
                 label1.Text = "Created by NuclearMind Team";
               
                 this.Name = "Strat";
-                //for (int i = 350; i < 450; i++)
-                //{
-
-                //    if (state == true)
-                //    {
-                //        this.Location = new System.Drawing.Point(i, progress.Width - 100);
-
-                //        this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-
-                //    }
-
-
-
-
-                //}
+               
             }
             if (progress.Width >= 600)
             {
@@ -70,29 +56,6 @@ namespace light_sensor
             }
         }
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
-            //string path = "sensor.log";
-            //if (!File.Exists(path))
-            //{
-            //    StreamWriter sw = new StreamWriter(path, false);
-
-            //    StratUp();
-            //}
-            //string Desktop_path = @"C:\Users\" + Environment.UserName + @"\OneDrive\Desktop\sensor.log";
-
-            //if (!File.Exists(Desktop_path))
-            //{
-            //    StreamWriter sw = new StreamWriter(Desktop_path, false);
-
-            //}
-        }
-
-        //public void StratUp()
-        //{
-
-        //   RegistryKey registryKey = Registry.CurrentUser.OpenSubKey("Computer\\HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run");
-        //   registryKey.SetValue("light sensor", Application.ExecutablePath.ToString());
-        //}
+       
     }
 }
